@@ -1,0 +1,10 @@
+digraph G {
+    t0 [label="b * -c"];
+    t1 [label="b * -c"];
+    t2 [label="t0 + t1"];
+    t3 [label="a = t2"];
+    t0 -> t0;
+    t1 -> t1;
+    t0 -> t2;
+    t1 -> t2;
+    t2 -> t3;
